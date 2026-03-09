@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaMobiles - Premium Smartphone Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#0f172a",
+                        accent: "#0ea5e9",
+                        soft: "#f8fafc"
+                    },
+                    boxShadow: {
+                        card: "0 10px 30px -12px rgba(15, 23, 42, 0.25)"
+                    }
+                }
+            }
+        };
+    </script>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+    <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+            <a href="#" class="text-xl font-bold tracking-tight text-primary">Nova<span class="text-accent">Mobiles</span></a>
+            <ul class="hidden items-center gap-8 text-sm font-medium md:flex">
+                <li><a href="#products" class="transition hover:text-accent">Products</a></li>
+                <li><a href="#offers" class="transition hover:text-accent">Offers</a></li>
+                <li><a href="#reviews" class="transition hover:text-accent">Reviews</a></li>
+                <li><a href="#contact" class="transition hover:text-accent">Contact</a></li>
+            </ul>
+            <button class="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800">Shop Now</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-cyan-900 text-white">
+            <div class="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 md:grid-cols-2 lg:px-8 lg:py-20">
+                <div>
+                    <p class="mb-3 inline-flex rounded-full bg-white/10 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-cyan-200">Latest Launches 2026</p>
+                    <h1 class="text-4xl font-extrabold leading-tight sm:text-5xl">Upgrade to your next smartphone with confidence.</h1>
+                    <p class="mt-5 max-w-xl text-base text-slate-200 sm:text-lg">Discover flagship and budget phones from top brands with instant exchange, easy EMI, and same-day dispatch.</p>
+                    <div class="mt-8 flex flex-wrap gap-3">
+                        <a href="#products" class="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition hover:bg-sky-500">Explore Phones</a>
+                        <a href="#offers" class="rounded-full border border-white/40 px-6 py-3 text-sm font-semibold transition hover:bg-white/10">View Offers</a>
+                    </div>
+                </div>
+                <div class="mx-auto w-full max-w-md rounded-3xl border border-white/10 bg-white/10 p-6 shadow-2xl backdrop-blur-md">
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&q=80" alt="Premium smartphone display" class="h-72 w-full rounded-2xl object-cover">
+                    <div class="mt-5 flex items-center justify-between">
+                        <div>
+                            <p class="text-xs uppercase tracking-wide text-cyan-200">Featured</p>
+                            <h3 class="text-lg font-bold">XPhone Ultra Pro</h3>
+                        </div>
+                        <p class="text-xl font-bold text-cyan-300">$999</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-soft py-14">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <h2 class="text-center text-2xl font-bold text-primary sm:text-3xl">Shop by Category</h2>
+                <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                    <article class="rounded-2xl bg-white p-6 text-center shadow-card">
+                        <p class="text-3xl">📱</p>
+                        <h3 class="mt-3 font-semibold">Flagship Phones</h3>
+                    </article>
+                    <article class="rounded-2xl bg-white p-6 text-center shadow-card">
+                        <p class="text-3xl">⚡</p>
+                        <h3 class="mt-3 font-semibold">Fast Charging</h3>
+                    </article>
+                    <article class="rounded-2xl bg-white p-6 text-center shadow-card">
+                        <p class="text-3xl">🎧</p>
+                        <h3 class="mt-3 font-semibold">Accessories</h3>
+                    </article>
+                    <article class="rounded-2xl bg-white p-6 text-center shadow-card">
+                        <p class="text-3xl">🔄</p>
+                        <h3 class="mt-3 font-semibold">Exchange Deals</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="py-16">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-wrap items-end justify-between gap-4">
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-wide text-accent">Top Picks</p>
+                        <h2 class="text-2xl font-bold text-primary sm:text-3xl">Featured Smartphones</h2>
+                    </div>
+                    <a href="#" class="text-sm font-semibold text-primary hover:text-accent">View all products</a>
+                </div>
+                <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-card">
+                        <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1000&q=80" alt="Smartphone front and back" class="h-56 w-full object-cover">
+                        <div class="p-5">
+                            <h3 class="text-lg font-bold text-primary">PixelNext 10</h3>
+                            <p class="mt-2 text-sm text-slate-600">128GB | 5G | 50MP Camera</p>
+                            <div class="mt-4 flex items-center justify-between">
+                                <span class="text-xl font-bold">$749</span>
+                                <button class="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-card">
+                        <img src="https://images.unsplash.com/photo-1510557880182-3a935f5ee99a?auto=format&fit=crop&w=1000&q=80" alt="Blue premium smartphone" class="h-56 w-full object-cover">
+                        <div class="p-5">
+                            <h3 class="text-lg font-bold text-primary">Galaxy Z Nova</h3>
+                            <p class="mt-2 text-sm text-slate-600">256GB | AMOLED | AI Features</p>
+                            <div class="mt-4 flex items-center justify-between">
+                                <span class="text-xl font-bold">$899</span>
+                                <button class="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-card sm:col-span-2 lg:col-span-1">
+                        <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=1000&q=80" alt="Budget smartphone in hand" class="h-56 w-full object-cover">
+                        <div class="p-5">
+                            <h3 class="text-lg font-bold text-primary">OnePrime Lite</h3>
+                            <p class="mt-2 text-sm text-slate-600">128GB | 120Hz Display | 5000mAh</p>
+                            <div class="mt-4 flex items-center justify-between">
+                                <span class="text-xl font-bold">$399</span>
+                                <button class="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="offers" class="bg-slate-900 py-16 text-white">
+            <div class="mx-auto grid max-w-7xl gap-6 px-4 sm:px-6 md:grid-cols-3 lg:px-8">
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+                    <p class="text-xs uppercase tracking-wider text-cyan-300">Limited Offer</p>
+                    <h3 class="mt-2 text-xl font-bold">Up to 35% Off</h3>
+                    <p class="mt-3 text-sm text-slate-300">Save big on selected flagship models this week only.</p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+                    <p class="text-xs uppercase tracking-wider text-cyan-300">Exchange Bonus</p>
+                    <h3 class="mt-2 text-xl font-bold">Extra $120 Value</h3>
+                    <p class="mt-3 text-sm text-slate-300">Trade in your old phone and get additional cashback.</p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+                    <p class="text-xs uppercase tracking-wider text-cyan-300">Bank Deals</p>
+                    <h3 class="mt-2 text-xl font-bold">No-Cost EMI</h3>
+                    <p class="mt-3 text-sm text-slate-300">Easy installments up to 24 months on all major cards.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="py-16">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <h2 class="text-2xl font-bold text-primary sm:text-3xl">What Customers Say</h2>
+                <div class="mt-8 grid gap-6 md:grid-cols-3">
+                    <blockquote class="rounded-2xl border border-slate-200 p-6 shadow-card">
+                        <p class="text-sm text-slate-600">"Super smooth buying experience. The phone arrived the same day."</p>
+                        <footer class="mt-4 text-sm font-semibold text-primary">Aarav S.</footer>
+                    </blockquote>
+                    <blockquote class="rounded-2xl border border-slate-200 p-6 shadow-card">
+                        <p class="text-sm text-slate-600">"Best exchange value I found online. Support team was excellent."</p>
+                        <footer class="mt-4 text-sm font-semibold text-primary">Maya T.</footer>
+                    </blockquote>
+                    <blockquote class="rounded-2xl border border-slate-200 p-6 shadow-card">
+                        <p class="text-sm text-slate-600">"Loved the clean site and secure checkout. Highly recommended."</p>
+                        <footer class="mt-4 text-sm font-semibold text-primary">Daniel R.</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gradient-to-r from-cyan-500 to-sky-600 py-14 text-white">
+            <div class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-4 sm:px-6 md:flex-row md:items-center lg:px-8">
+                <div>
+                    <h2 class="text-2xl font-bold sm:text-3xl">Get exclusive launch offers first.</h2>
+                    <p class="mt-2 text-sm text-cyan-100">Subscribe to updates and never miss a deal.</p>
+                </div>
+                <form class="flex w-full max-w-md gap-2">
+                    <input type="email" placeholder="Enter your email" class="w-full rounded-lg border border-white/40 bg-white/10 px-4 py-3 text-sm placeholder:text-cyan-100 focus:border-white focus:outline-none">
+                    <button type="submit" class="rounded-lg bg-white px-5 py-3 text-sm font-semibold text-sky-700 hover:bg-slate-100">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="bg-primary py-10 text-slate-300">
+        <div class="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 md:grid-cols-3 lg:px-8">
+            <div>
+                <h3 class="text-lg font-bold text-white">NovaMobiles</h3>
+                <p class="mt-3 text-sm">Your trusted destination for smartphones, accessories, and top tech deals.</p>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white">Quick Links</h4>
+                <ul class="mt-3 space-y-2 text-sm">
+                    <li><a href="#products" class="hover:text-white">Products</a></li>
+                    <li><a href="#offers" class="hover:text-white">Offers</a></li>
+                    <li><a href="#reviews" class="hover:text-white">Testimonials</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white">Contact</h4>
+                <p class="mt-3 text-sm">Email: support@novamobiles.com</p>
+                <p class="mt-1 text-sm">Phone: +1 (800) 123-4567</p>
+                <p class="mt-1 text-sm">Mon-Sat: 9:00 AM - 8:00 PM</p>
+            </div>
+        </div>
+        <div class="mt-8 border-t border-white/10 pt-6 text-center text-xs text-slate-400">
+            © 2026 NovaMobiles. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
